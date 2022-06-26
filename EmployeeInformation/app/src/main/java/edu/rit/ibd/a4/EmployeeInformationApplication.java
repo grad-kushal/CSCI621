@@ -15,6 +15,8 @@ public class EmployeeInformationApplication {
 
 	static String [] deps = {"Transportation", "Police", "Fire", "Family and Support", "Law", "Sanitation", "Health", "Aviation", "Finance", "Business Affairs", "Water Management", "Housing", "OEMC", "DAIS", "DMV"};
 	public static ArrayList<String> departments = new ArrayList<>(Arrays.asList(deps));
+	
+	
 	public static void main(String[] args) throws Exception {
 
 		final String mongoDBURL = args[0];
